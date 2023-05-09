@@ -1,0 +1,6 @@
+.lista__principal__formacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

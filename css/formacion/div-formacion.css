@@ -1,0 +1,16 @@
+.div__formacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+@media screen and (max-width:768px) {
+    .div__formacion  {
+        justify-content: space-between;
+        
+
+    }
+    
+}

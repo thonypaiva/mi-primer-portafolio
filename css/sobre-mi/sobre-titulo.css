@@ -1,0 +1,13 @@
+.sobre__mi--titulo{
+    text-align: left;
+    margin-top: 2rem;
+    color: #464646;
+    font-family: 'Raleway',sans-serif;
+}
+
+@media screen and (max-width:768px) {
+    .sobre__mi--titulo{
+        text-align: center;
+        font-weight: 700;
+    }
+}

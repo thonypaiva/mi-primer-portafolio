@@ -1,0 +1,35 @@
+.boton__contacto{
+    width: 100%;
+    padding:1rem;
+    display: block;
+    background-color: rgb(253, 253, 253);
+    margin: 0.5rem 0 1.5rem 0;
+    box-shadow: 19px 11px 20px 3px rgba(222,202,202,0.75);
+    outline: none;
+    border-style: none;
+    border-radius: 8px;
+}
+
+.boton__contacto:focus{
+    border-bottom-style: solid;
+}
+
+
+label{   
+    position: absolute;    
+    color:rgb(0, 0, 0);
+    font-size: 14px;
+   left: 5px;
+   top:-7px;
+   transition: 0.5s ease-in-out all ;
+}
+
+.boton__contacto:focus~label{
+    top:-14px;
+    font-size: 14px;
+    color: rgb(186, 157, 200);
+}
+
+
+
+

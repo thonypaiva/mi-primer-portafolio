@@ -1,0 +1,10 @@
+.section__experiencia{
+    margin: 2rem 5rem 0 5rem;
+}
+
+@media screen and (max-width:768px){
+   .section__experiencia{
+    margin: 0.5rem 1.5rem 0.5rem 1.5rem;
+   }
+    
+}

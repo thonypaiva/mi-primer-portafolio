@@ -1,0 +1,14 @@
+.redes__facebook{
+    width: 50px;
+    height: 50px;
+    border-radius: 40%;
+}
+
+
+.redes__facebook:active{
+    transform: scale(1.2);    
+}
+
+.redes__facebook:hover{
+    box-shadow: 5px 5px 20px 10px  #9000ff;
+ }

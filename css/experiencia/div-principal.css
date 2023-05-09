@@ -1,0 +1,12 @@
+.div__principal__experiencia{
+    display: flex;
+}
+
+
+@media screen and (max-width:768px) {
+    .div__principal__experiencia{
+        width: 100%;
+        flex-direction: column;
+    }
+    
+}

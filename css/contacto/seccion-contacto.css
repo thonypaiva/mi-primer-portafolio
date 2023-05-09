@@ -1,0 +1,11 @@
+.seccion__contacto{
+    display: flex;
+    margin: 2em 5rem 0 5rem;
+}
+
+@media screen and (max-width:768px){
+    .seccion__contacto{
+        margin:0.5rem 1.5rem 0.5rem 1.5rem;
+    }
+    
+}

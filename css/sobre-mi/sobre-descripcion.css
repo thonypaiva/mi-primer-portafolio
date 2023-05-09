@@ -1,0 +1,18 @@
+.sobre__mi--descipcion{
+    text-align: left;
+    margin-top: 5rem;
+    justify-content: left;
+    font-family: 'Raleway', sans-serif;
+    line-height: 2rem;
+    color: #575454;
+}
+
+@media screen and (max-width:768px) {
+    .sobre__mi--descipcion{
+    
+        text-align: left;
+        padding-right: 1rem;
+        
+    }
+    
+}

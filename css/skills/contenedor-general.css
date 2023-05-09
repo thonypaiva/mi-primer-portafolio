@@ -1,0 +1,12 @@
+.contenedor__general{
+    display: block;
+    margin: 5rem 5rem 0 5rem;    
+}
+
+@media screen and (max-width:768px) {
+    .contenedor__general{
+        margin: 0.5rem 0.5rem 0.5rem 1.5rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

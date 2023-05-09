@@ -1,0 +1,13 @@
+.redes__instagram{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.redes__instagram:active{
+    transform: scale(1.2);
+}
+
+.redes__instagram:hover{
+    box-shadow: 5px 5px 20px 10px  #9000ff;
+ }

@@ -1,0 +1,6 @@
+.div__experencia{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+}
+

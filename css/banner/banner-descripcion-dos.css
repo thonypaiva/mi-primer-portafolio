@@ -1,0 +1,16 @@
+.banner__descripcion__dos{
+    display: flex;
+    font-family: 'Raleway';
+    font-weight: 400;
+    color: #464646;
+  
+}
+
+@media screen and (max-width:768px){
+    .banner__descripcion__dos{
+        width: 100%;
+        font-weight: 400;
+        text-align: left;
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,7 @@
+.encabezado__titulo{
+    display: flex;
+    margin-left: 2rem;
+    justify-content: center;
+    position: absolute;
+    color:  #464646;
+}

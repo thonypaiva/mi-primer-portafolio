@@ -1,0 +1,33 @@
+.banner__imagen{
+    display: flex;
+    width: 368px;
+    height: 368px;
+    justify-content: right;
+    border-radius: 50%;
+    justify-content: right;
+    margin: 5rem 5rem 0 2rem;  
+    box-shadow: 5px 5px 20px 10px  #9000ff;
+
+}
+
+@media screen and (max-width:768px){
+    .banner__imagen{
+        width: 300px;
+        height: 300px;
+        margin-bottom:2.5rem;
+        animation: sombra 5s infinite linear;
+    }
+}
+
+@keyframes sombra {
+  0%{
+    box-shadow: 0px 0px 0px 0px  #002fff;
+  }
+  100%{
+    box-shadow: 5px 5px 20px 10px #9000ff;
+  }
+  0%{
+    box-shadow: 0px 0px 0px 0px  #002fff;
+  }
+    
+}

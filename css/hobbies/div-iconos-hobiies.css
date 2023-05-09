@@ -1,0 +1,21 @@
+.div__hobbies{
+    display: inline;
+    margin-top: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border-top-style: solid;
+   border-color: blueviolet;
+ 
+}
+
+@media screen and (max-width:768px) {
+    .div__hobbies{
+        border-style: none;
+        width: 80px;
+    }
+}
+
+
+
+

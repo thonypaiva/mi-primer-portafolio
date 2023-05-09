@@ -1,0 +1,11 @@
+.logo__formacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:768px){
+    .logo__formacion{
+        width: 15%;
+    }
+}

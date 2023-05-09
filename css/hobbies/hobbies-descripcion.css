@@ -1,0 +1,8 @@
+.hobbies__descripcion{
+    justify-content: center;
+    display: flex;
+    margin-top: 0.5rem;
+    font-family: 'Raleway';
+    color: #464646;
+    font-weight: 500;
+}

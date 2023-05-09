@@ -1,0 +1,7 @@
+.lista__principal__experiencia{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    justify-content: center;
+   
+}

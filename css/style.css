@@ -1,0 +1,10 @@
+body{   
+    background: linear-gradient(90deg, rgb(229, 179, 233) 1%, rgba(255,255,255,1) 28%, rgba(255,255,255,1) 100%);    
+}
+
+@media screen (max-width:360px) {
+    body{
+        
+    }
+}
+

@@ -1,0 +1,13 @@
+.encabezado__izquierdo{
+    display: flex;
+    margin: 0 0 0 5rem;
+    justify-items: center;
+    align-items: center;
+}
+
+@media screen and (max-width:768px){
+    .encabezado__izquierdo{
+         margin: 0;
+    }
+    
+}

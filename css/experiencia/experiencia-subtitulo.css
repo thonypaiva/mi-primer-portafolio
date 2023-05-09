@@ -1,0 +1,15 @@
+.experiencia__subtitulo{
+    display: flex;
+    margin-top: 3rem;
+    font-family: 'Raleway';
+    font-weight: 500;
+    color: #464646;
+  
+}
+
+@media screen and (max-width:768px) {
+    .experiencia__subtitulo{
+        margin-top: 0.5rem;
+    }
+    
+}

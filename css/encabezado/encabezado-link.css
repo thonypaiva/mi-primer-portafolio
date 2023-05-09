@@ -1,0 +1,24 @@
+.encabezado__menu--lista__link{
+    color: #464646;
+    font-family: 'Raleway', sans-serif ; 
+    text-decoration: none;
+}
+
+.encabezado__menu--lista__link--resaltar{
+    font-family: 'Raleway', sans-serif ; 
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    
+
+}
+
+@media screen and (max-width:768px){
+
+    .encabezado__menu--lista__link{
+        display: none;
+        justify-content: right;
+        
+    }
+}

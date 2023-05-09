@@ -1,0 +1,9 @@
+.descripcion__skills{  
+   display: flex;
+   text-align: center;
+   line-height: 1.5rem;
+   margin-top: 1.5rem;
+   margin-right: 1rem;
+   color: rgb(27, 29, 24);
+   font-family: 'Raleway';
+}

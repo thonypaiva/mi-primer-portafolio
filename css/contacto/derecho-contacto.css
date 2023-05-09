@@ -1,0 +1,10 @@
+.contacto__derecho{
+   display: flex;
+   flex-direction: column; 
+}
+
+.div__formulario{
+   width: 100%;
+   display: block;
+}
+

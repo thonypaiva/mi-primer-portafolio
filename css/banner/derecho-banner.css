@@ -1,0 +1,13 @@
+.banner__derecho{
+    display: flex;
+   }
+
+   @media screen and (max-width:768px) {
+    .banner__derecho{
+        display: flex;
+        justify-content: right;
+       margin-left: 4rem;
+
+        
+    }
+   }

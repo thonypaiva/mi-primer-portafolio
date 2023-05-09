@@ -1,0 +1,15 @@
+.logo__skills{
+    justify-content: center;
+    margin: 1rem;
+    border-radius: 15px;
+    display: flex;
+    
+   
+}
+
+.logo__skills{
+  
+    position: flex;
+    align-items: left;
+}
+

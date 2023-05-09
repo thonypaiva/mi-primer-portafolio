@@ -1,0 +1,15 @@
+.descripcion__formacion{
+    padding: 1rem 1rem 1rem 1rem;
+   font-weight: 700;
+   font-family: 'Raleway',sans-serif;
+   color: #464646;
+    text-align: left;
+   
+}
+
+@media screen and (max-width:768px) {
+   .descripcion__formacion{ 
+    text-align: left;
+   }
+    
+}

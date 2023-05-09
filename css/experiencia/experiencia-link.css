@@ -1,0 +1,26 @@
+.experiencia__link{
+    display: flex;
+    text-decoration: none;
+    margin-top: 5rem;
+    border: solid 2px rgb(5, 5, 5);
+    margin-top: 5rem;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 1rem;
+    font-weight: 400;
+    font-family: 'Raleway';
+    color: rgb(38, 125, 38); 
+    
+    
+}
+
+@media screen and (max-width:768px) {
+
+    .experiencia__link{
+        width: 30%;
+        margin-top: 1rem;
+        background-color: indigo;
+        text-decoration: solid;
+    }
+    
+}

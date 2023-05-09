@@ -1,0 +1,11 @@
+.formulario__contacto{
+    display: block;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+
+
+.campo__contacto{
+    position: relative;
+}
