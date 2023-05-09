@@ -1,2 +1,2 @@
 # mi-primer-portafolio
-creando mi portafolio con mi primer proyecto que es el encriptador
+creando mi portafolio usando javascript css y html muy basico 
