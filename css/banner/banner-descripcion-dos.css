@@ -14,3 +14,13 @@
         font-size: 1rem;
     }
 }
+
+@media screen and (max-width:360px){
+    .banner__descripcion__dos{
+        position: relative;
+        left:5rem;
+        width: 100%;
+        font-weight: 400;
+        font-size: 1rem;
+    }
+}

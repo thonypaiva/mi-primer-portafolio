@@ -11,3 +11,11 @@
         
     }
    }
+
+   @media screen and (max-width:360px) {
+    .banner__derecho{
+        display: flex;
+        width: 50%;
+        margin-left: 0;
+    }
+   }

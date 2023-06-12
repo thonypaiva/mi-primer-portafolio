@@ -13,3 +13,9 @@
     }
     
 }
+@media screen and (max-width:360px){
+    .container__redes{
+        display: flex;
+    }
+    
+}

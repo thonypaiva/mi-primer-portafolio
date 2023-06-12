@@ -10,15 +10,6 @@
 
 }
 
-@media screen and (max-width:768px){
-    .banner__imagen{
-        width: 300px;
-        height: 300px;
-        margin-bottom:2.5rem;
-        animation: sombra 5s infinite linear;
-    }
-}
-
 @keyframes sombra {
   0%{
     box-shadow: 0px 0px 0px 0px  #002fff;
@@ -31,3 +22,25 @@
   }
     
 }
+
+@media screen and (max-width:768px){
+    .banner__imagen{
+        width: 300px;
+        height: 300px;
+        margin-bottom:2.5rem;
+        animation: sombra 5s infinite linear;
+        box-sizing: content-box;
+    }
+}
+
+@media screen and (max-width:360px){
+  .banner__imagen{
+      width: 120px;
+      height: 120px;
+      margin-bottom:1rem;
+      box-sizing: border-box;
+      position: relative;
+      left: 3rem;
+  }
+}
+

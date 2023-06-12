@@ -1,0 +1,11 @@
+.banner__imagen{
+    width: 100%;
+}
+
+
+@media screen and (min-width:360px){
+    .banner__imagen{
+        width: 30px;
+        height: 30px;       
+    }    
+}

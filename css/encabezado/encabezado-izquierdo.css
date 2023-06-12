@@ -4,10 +4,17 @@
     justify-items: center;
     align-items: center;
 }
-
-@media screen and (max-width:768px){
+@media screen and (min-width:768px){
+  
     .encabezado__izquierdo{
-         margin: 0;
-    }
-    
+        width: 50%;
+    }   
+}
+
+
+@media screen and (max-width:360px){
+      .encabezado__izquierdo{
+        width: 50%;
+        margin: 0;
+      }  
 }

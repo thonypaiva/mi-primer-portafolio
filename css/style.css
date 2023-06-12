@@ -2,9 +2,22 @@ body{
     background: linear-gradient(90deg, rgb(229, 179, 233) 1%, rgba(255,255,255,1) 28%, rgba(255,255,255,1) 100%);    
 }
 
-@media screen (max-width:360px) {
+@media screen and (max-width:768px){
     body{
-        
-    }
+        background: no-repeat;
+        width: 100%;
+        margin: 0;
+        padding:15px;
+    }   
 }
 
+
+
+@media screen and (max-width:368px){
+    body{
+        background: none;
+        width: 100%;
+        margin: 0;
+        padding:15px;
+    }   
+}

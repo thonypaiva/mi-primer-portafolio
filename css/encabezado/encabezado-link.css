@@ -22,3 +22,29 @@
         
     }
 }
+
+@media screen and (max-width:360px){
+
+    .encabezado__menu--lista__link{
+        display: none;
+        justify-content: center;
+        
+    }
+}
+
+
+@media screen and (max-width:768px){
+
+    .encabezado__menu--lista__link--resaltar{
+        justify-content: right;
+        
+    }
+}
+
+@media screen and (max-width:360px){
+
+    .encabezado__menu--lista__link--resaltar{
+        justify-content: center;
+        
+    }
+}

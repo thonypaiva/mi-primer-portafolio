@@ -16,3 +16,14 @@
     }
     
 }
+
+@media screen and (max-width:360px) {
+    .sobre__mi--descipcion{
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        width: 100%;
+        text-align: none;
+    }
+    
+}

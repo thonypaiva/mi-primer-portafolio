@@ -196,16 +196,13 @@
                 <img class="hobbies__icono" src="./imagenes/bicicleta.png" alt="icono bicicleta">
                 <h4 class="hobbies__descripcion">Bicicleta</h4>
             </div>
-            <div class="div__hobbies">
-                <img class="hobbies__icono" src="./imagenes/cocinar.png" alt="icono cocinando">
-                <h4 class="hobbies__descripcion">Cocinar</h4>
-            </div>
+           
             <div class="div__hobbies">
                 <img class="hobbies__icono" src="./imagenes/jugando.png" alt="icono computadora">
                 <h4 class="hobbies__descripcion">Jugar en la PC</h4>
             </div>
         </section>
-        <section class="contenedor__formacion" id="formacion">
+        <section class="contenedor__formacion">
             <h2 class="formacion__titulo">Formacion Academica</h2>
             <div class="formaciones">
                 <div class="div__formacion">
@@ -219,19 +216,19 @@
                     <ul class="lista__principal__formacion">
                         <li class="logo__formacion"><img class="imagen__formacion" src="./imagenes/alura_logo.png"
                                 alt="Logo Alura"></li>
-                        <h4 class="descripcion__formacion">Formacion en front-end 2022-2023</h4>
+                        <h4 class="descripcion__formacion">Formacion en Front-End 2022-2023</h4>
                     </ul>
                 </div>
                 <div class="div__formacion">
                     <ul class="lista__principal__formacion">
                         <li class="logo__formacion"><img class="imagen__formacion" src="./imagenes/netzun.png"
                                 alt="Logo Netzun"></li>
-                        <h4 class="descripcion__formacion">Formacion en desarrollo web 2023</h4>
+                        <h4 class="descripcion__formacion">Formacion en Desarrollo web 2023</h4>
                     </ul>
                 </div>
             </div>
         </section>
-        <section class="section__experiencia" id="proyectos">
+        <section class="section__experiencia" >
             <h2 class="titulo__experiencia">Experiencia Profesional</h2>
             <div class="div__principal__experiencia">
                 <div class="div__experencia">
@@ -271,14 +268,17 @@
                                 <div class="campo__contacto">
                                     <input class="boton__contacto" id="nombre" type="text" name="nombre"  >
                                     <label for="nombre">Nombre y Apellido</label>
+                                    <span class="mensaje-nombre" ></span>
                                 </div>
                                 <div class="campo__contacto">
                                     <input class="boton__contacto" id="email" type="email" name="email" >
                                     <label for="email">Email</label>
+                                    <span class="mensaje-email" ></span>
                                 </div>
                                 <div class="campo__contacto">
                                         <textarea class="area__contacto" id="mensaje" name="mensaje"  cols="50" rows="10"
                                         placeholder="Deje su mensaje por favor" ></textarea>
+                                        <span class="area-mensaje" ></span>
                                 </div>         
                                 <button class="enviar__contacto" id="enviar" type="submit">Enviar Mensaje</button>                       
                             </form>

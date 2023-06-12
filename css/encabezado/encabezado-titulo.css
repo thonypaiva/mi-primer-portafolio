@@ -1,7 +1,21 @@
 .encabezado__titulo{
     display: flex;
-    margin-left: 2rem;
-    justify-content: center;
+    margin-left: 1.5rem;
+    justify-content: left;
     position: absolute;
     color:  #464646;
+    padding: 0 0.5rem;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+@media screen and (max-width:360px){
+    .encabezado__titulo{
+        display: flex;
+        font-size: 10px;
+        margin-left: 1rem;
+        padding-right: 2rem;
+    }    
 }

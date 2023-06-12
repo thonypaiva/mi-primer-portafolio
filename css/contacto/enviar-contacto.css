@@ -14,3 +14,17 @@
     box-shadow: 19px 11px 20px 3px rgba(222,202,202,0.75);
 
 }
+
+@media screen and (max-width:360px) {
+    .enviar__contacto{
+    
+        font-size: 14px;
+        font-weight: 600;
+        text-align: justify;
+        box-shadow: 19px 11px 20px 3px rgba(222,202,202,0.75);
+        outline: none;
+        margin-left: 0;
+        padding: 0.5rem;
+    }
+    
+}

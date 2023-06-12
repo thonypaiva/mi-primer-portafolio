@@ -2,6 +2,11 @@ const form = document.querySelector('form');
 const nombre = document.getElementById("nombre");
 const email = document.getElementById("email");
 const mensaje = document.getElementById("mensaje");
+const inputNombreError = document.querySelector('.mensaje-nombre');
+const inputEmailError = document.querySelector('.mensaje-email');
+const textAreaError = document.querySelector('.area-mensaje')
+
+
 
 
 const validarEmail = (email) =>{
@@ -12,28 +17,31 @@ const validarEmail = (email) =>{
 form.addEventListener("submit", (event) => {
     event.preventDefault();
 
-    let nombreBoton = nombre;
+    const nombreBoton = nombre;
     
     if(nombreBoton.value.length < 3 || nombre.value.length === ""){
-        alert(`El campo 'Nombre' no puede estar vacio y/o es muy corto el nombre`);
+       inputNombreError.textContent = "Por favor coloca un Nombre y Apellido valido y/o este campo no puede esta vacio "
         return
-    }else if(nombreBoton.value.length > 25){
-        alert("que nombre tan largo")
-        return
+    }else {
+        inputNombreError.textContent = ""
     }
 
    
     if (!validarEmail(email.value)) {
-        alert("Por favor, ingrese una dirección de correo electrónico válida");
+        inputEmailError.textContent = "Por favor coloca un email valido"
         return;
     }
 
-    let areaAsunto = mensaje;
+    const areaAsunto = mensaje;
 
     if( areaAsunto.value.length < 5 || areaAsunto.value.length === ""){
-        alert("Este mensaje es muy corto")
+       textAreaError.textContent = "Por favor coloca un mensaje mas largo y/o este campo no puede esta vacio "
         return
+    }else{
+        textAreaError.textContent = ""
+
     }
+
     event.target.submit();
     
 })
